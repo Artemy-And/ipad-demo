@@ -1,0 +1,187 @@
+.App {
+  text-align: center;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.deviceWrapper{
+  position: relative;
+}
+.ipadHorisontal{
+  height: 90vh;
+
+}
+.ipadVertical{
+  height: 0;
+}
+.iphoneHorizontal{
+  height: 0;
+}
+.iphoneVertical{
+  height: 0;
+}
+
+.screenWrapper{
+  position: absolute;
+  background-image: url(./images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  top: 19%;
+  left: 15%;
+  right: 16%;
+  bottom: 19%;
+  overflow: hidden;
+}
+
+.screen{
+  border: 2px solid red;
+  height: 540px;
+  width: 668px;
+  padding: 0 25px;
+  /*margin-left: 25px;*/
+  /*margin-right: 250px;*/
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: stretch;
+}
+.iconsNew{
+  width: 80px;
+  height: 80px;
+  /*display: flex;*/
+  /*background-color: red;*/
+  /*order: 0;*/
+  /*flex: 0 1 auto;*/
+  /*align-self: auto;*/
+  cursor: grab;
+
+}
+.Applicons{
+  width: 40px;
+  height: 40px;
+  /*display: flex;*/
+  align-self: auto;
+}
+
+
+
+
+
+@media screen and (max-width: 1024px){
+  .App {
+    text-align: center;
+    display: flex;
+    height:90vh;
+    align-items: center;
+    justify-content: center;
+  }
+  .deviceWrapper{
+    position: relative;
+  }
+  .ipadHorisontal{
+    height: 0;
+  }
+
+  .iphoneHorizontal{
+    height: 0;
+  }
+  .ipadVertical{
+    height: 85vh;
+  }
+
+  .screenWrapper{
+    position: absolute;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 15%;
+    left: 19%;
+    right: 19%;
+    bottom: 16%;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .App {
+    text-align: center;
+    display: flex;
+    height:90vh;
+    align-items: center;
+    justify-content: center;
+  }
+  .deviceWrapper{
+    position: relative;
+  }
+  .ipadHorisontal{
+    height: 0;
+  }
+  .ipadVertical{
+    height: 0;
+  }
+  .iphoneVertical{
+    height: 0;
+  }
+  .iphoneHorizontal{
+    height: 50vh;
+  }
+
+  .screenWrapper{
+    position: absolute;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 18%;
+    left: 18%;
+    right: 18%;
+    bottom: 18%;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 568px){
+  .App {
+    text-align: center;
+    display: flex;
+    height:90vh;
+    align-items: center;
+    justify-content: center;
+  }
+  .deviceWrapper{
+    position: relative;
+  }
+  .ipadHorisontal{
+    height: 0;
+  }
+  .ipadVertical{
+    height: 0;
+  }
+  .iphoneHorizontal{
+    height: 0;
+  }
+  .iphoneVertical{
+    height: 50vh;
+  }
+
+  .screenWrapper{
+    position: absolute;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 18%;
+    left: 18%;
+    right: 18%;
+    bottom: 18%;
+    overflow: hidden;
+  }
+}
+
+
+
+
+
+
+
