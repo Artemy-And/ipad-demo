@@ -1,22 +1,25 @@
 import React, {useEffect, useState} from "react";
+import styles from './Clock.module.scss'
 
-
-export const Clock = (props)=>{
+export const Clock = (props:any)=>{
     let [date, setState]=useState(new Date())
 
-    // useEffect(()=>{
-    //     setTimeout(()=>{
-    //         setState(date.getHours())
-    //         setState(date.getMinutes())
-    //         setState(date.getSeconds())
-    //     },1000)
-    // })
+    useEffect(()=>{
+        setTimeout(()=>{
+            setState(new Date())
 
-    return <div>
-        <span>{date.getHours()}</span>
+        },1000)
+    })
+
+    const get2DigitString = (num:number)=> num < 10? '0'+ num:num
+
+const getMinString = get2DigitString(date.getMinutes())
+const getHoursString = get2DigitString(date.getHours())
+
+    return <div className={styles.clockk}>
+        <span>{getHoursString}</span>
         :
-        <span>{date.getMinutes()}</span>
-        :
-        <span>{date.getSeconds()}</span>
+        <span>{getMinString}</span>
+
     </div>
 }
