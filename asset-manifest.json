@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ipad-demo/static/css/main.a8d7f183.chunk.css",
+    "main.css": "/ipad-demo/static/css/main.d1a74e0f.chunk.css",
     "main.js": "/ipad-demo/static/js/main.5ecd8167.chunk.js",
     "main.js.map": "/ipad-demo/static/js/main.5ecd8167.chunk.js.map",
     "runtime-main.js": "/ipad-demo/static/js/runtime-main.ecabb23a.js",
@@ -8,9 +8,9 @@
     "static/js/2.ffcff61e.chunk.js": "/ipad-demo/static/js/2.ffcff61e.chunk.js",
     "static/js/2.ffcff61e.chunk.js.map": "/ipad-demo/static/js/2.ffcff61e.chunk.js.map",
     "index.html": "/ipad-demo/index.html",
-    "precache-manifest.01ae9de1c751846a151358e9f497c0cc.js": "/ipad-demo/precache-manifest.01ae9de1c751846a151358e9f497c0cc.js",
+    "precache-manifest.1b237f7c3bf3b131b4905afbc7ee94da.js": "/ipad-demo/precache-manifest.1b237f7c3bf3b131b4905afbc7ee94da.js",
     "service-worker.js": "/ipad-demo/service-worker.js",
-    "static/css/main.a8d7f183.chunk.css.map": "/ipad-demo/static/css/main.a8d7f183.chunk.css.map",
+    "static/css/main.d1a74e0f.chunk.css.map": "/ipad-demo/static/css/main.d1a74e0f.chunk.css.map",
     "static/js/2.ffcff61e.chunk.js.LICENSE.txt": "/ipad-demo/static/js/2.ffcff61e.chunk.js.LICENSE.txt",
     "static/media/App.module.scss": "/ipad-demo/static/media/background.bd8debf5.jpg",
     "static/media/AppStore.png": "/ipad-demo/static/media/AppStore.a494c0ee.png",
@@ -90,7 +90,7 @@
   "entrypoints": [
     "static/js/runtime-main.ecabb23a.js",
     "static/js/2.ffcff61e.chunk.js",
-    "static/css/main.a8d7f183.chunk.css",
+    "static/css/main.d1a74e0f.chunk.css",
     "static/js/main.5ecd8167.chunk.js"
   ]
 }
